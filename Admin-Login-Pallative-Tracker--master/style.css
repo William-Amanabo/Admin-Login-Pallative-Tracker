@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.nav-bg {
+  background-color: #fff !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bg .logo {
+  padding-left: 30px;
+}
+
+.nav-bg .logo img {
+  width: 100px;
+}
+
+.nav-bg .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav-bg .title h2 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0;
+}
+
+.nav-bg .title span {
+  color: #00b453;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.pageTitle-bg {
+  background: #00b453;
+  height: 94px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pageTitle-bg h3 {
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+
+form {
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+form .uk-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #00b453;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "PT Sans", sans-serif;
+}
+
+form .uk-input:focus {
+  border-bottom-color: #00b453;
+  font-family: "PT Sans", sans-serif;
+}
+
+form input::-webkit-input-placeholder {
+  color: #00B435;
+  opacity: .8;
+}
+
+form input:-ms-input-placeholder {
+  color: #00B435;
+  opacity: .8;
+}
+
+form input::-ms-input-placeholder {
+  color: #00B435;
+  opacity: .8;
+}
+
+form input::placeholder {
+  color: #00B435;
+  opacity: .8;
+}
+
+form .uk-icon {
+  color: #00b453;
+}
+
+form .uk-button-default {
+  margin-top: 20px;
+  border: 1px solid #00b453 !important;
+  border-radius: 10px !important;
+  padding: 5px 40px !important;
+  color: #fff !important;
+  background-color: #00b453 !important;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.welcome, .login {
+  color: #00b453;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bg .logo img {
+    width: 15vw !important;
+    padding-left: 0;
+  }
+  .nav-bg .title {
+    padding-right: 2px;
+  }
+  .nav-bg .title h2 {
+    font-size: 12px;
+  }
+  .nav-bg .title span {
+    font-size: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bg {
+    padding: 10px 0;
+  }
+  .nav-bg .logo img {
+    width: 100px;
+  }
+  .nav-bg .title h2 {
+    font-size: 30px;
+  }
+  .nav-bg .title span {
+    font-size: 15px;
+  }
+  .pageTitle-bg h3 {
+    font-size: 27px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .web {
+    display: none !important;
+  }
+  .mobile {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .mobile .coa {
+    margin-top: 15%;
+    width: 601px;
+    height: 100%;
+  }
+  .mobile .uk-position-top-left {
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .mobile .welcome {
+    font-size: 35px;
+  }
+  .mobile .login {
+    font-size: 18px;
+  }
+  .mobile form .uk-input {
+    border-top: 1px solid #00b453;
+    border-right: 1px solid #00b453;
+    border-left: 1px solid #00b453;
+    border-bottom: 1px solid #00b453;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+  }
+  .mobile form .uk-input:focus {
+    border-bottom-color: #00b453;
+    font-family: "PT Sans", sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 601px) {
+  .mobile {
+    display: none !important;
+  }
+  .nav-bg .logo img {
+    width: 100px;
+  }
+  .nav-bg .title {
+    padding-right: 30px;
+  }
+  .nav-bg .title h2 {
+    font-size: 30px;
+  }
+  .nav-bg .title span {
+    font-size: 20px;
+  }
+  .pageTitle-bg h3 {
+    font-size: 30px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 150px;
+  }
+  .coa {
+    width: 501px;
+  }
+  .welcome {
+    font-size: 45px;
+  }
+  .login {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .pageTitle-bg h3 {
+    font-size: 35px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 200px;
+  }
+  .welcome {
+    font-size: 55px;
+  }
+  .login {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
